@@ -1,11 +1,12 @@
-onEvent("next", "click", function () {
+onEvent("nextButton", "click", function () {
   var name = getText("name");
   var age = getText("Age");
   var position = getText("Position");
   console.log(name);
   console.log(age);
   console.log(position);
-setText(
+
+  setText(
     "Textarea1",
     "Hi  " +
       name +
