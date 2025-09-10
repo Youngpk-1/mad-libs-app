@@ -13,26 +13,36 @@
   <body>
     <main class="d-flex flex-column gap-2 align-items-center">
       <h1>Mad Libs Game App</h1>
-      <br />
-      <div class="">
-        <label for="name">Your Name:</label>
-        <input class="form-control" type="text" />
+      <div id="information">
+        <br />
+        <div class="">
+          <label for="name">Your Name:</label>
+          <input class="form-control" name="name" id="name" type="text" />
+        </div>
+        <div class="">
+          <label for="Age">Your Age:</label>
+          <input class="form-control" name="Age" id="Age" type="text" />
+        </div>
+        <div class="">
+          <label for="Position">Job Title:</label>
+          <input
+            class="form-control"
+            name="Position"
+            id="Position"
+            type="text"
+          />
+        </div>
+        <div class="">
+          <a id="submit" class="btn btn-primary">submit</a>
+        </div>
+        <h1>Important Facts To Consider:</h1>
+        <div>
+          <textarea class="container-fluid" id="text1"></textarea>
+        </div>
+        <a id="done" class="btn btn-primary" href="index.html">Done</a>
       </div>
-      <div class="">
-        <label for="Age">Your Age:</label>
-        <input class="form-control" type="text" />
-      </div>
-      <div class="">
-        <label for="Position">Job Title:</label>
-        <input class="form-control" type="text" />
-      </div>
-      <div class="container align-items-self">
-        <a id="next" class="btn btn-primary float-end" href="page2.html"
-          >Next</a
-        >
-      </div>
-      <script src="script.js"></script>
-      <script src="helpers.js"></script>
     </main>
+    <script src="helpers.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
