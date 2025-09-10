@@ -5,7 +5,7 @@ onEvent("submit", "click", function () {
   var userMessage =
     "Hi  " +
     name +
-    ", Wow, " +
+    "! Wow, " +
     age +
     " looks good on you! When holding a " +
     position +
